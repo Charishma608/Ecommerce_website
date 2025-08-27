@@ -158,7 +158,7 @@ export default function Checkout() {
                 value={form.name}
                 onChange={handleInputChange}
                 className={errors.name ? 'error' : ''}
-                placeholder="John Doe"
+                placeholder="Name"
               />
               {errors.name && <span className="error-message">{errors.name}</span>}
             </div>
@@ -171,7 +171,7 @@ export default function Checkout() {
                 value={form.email}
                 onChange={handleInputChange}
                 className={errors.email ? 'error' : ''}
-                placeholder="you@example.com"
+                placeholder="cherry@gmail.com"
               />
               {errors.email && <span className="error-message">{errors.email}</span>}
             </div>
@@ -184,7 +184,7 @@ export default function Checkout() {
                 value={form.address}
                 onChange={handleInputChange}
                 className={errors.address ? 'error' : ''}
-                placeholder="123 Main St"
+                placeholder="183 Ashok nagar"
               />
               {errors.address && <span className="error-message">{errors.address}</span>}
             </div>
@@ -198,7 +198,7 @@ export default function Checkout() {
                   value={form.city}
                   onChange={handleInputChange}
                   className={errors.city ? 'error' : ''}
-                  placeholder="New York"
+                  placeholder="Mumbai"
                 />
                 {errors.city && <span className="error-message">{errors.city}</span>}
               </div>
